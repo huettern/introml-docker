@@ -10,14 +10,14 @@ docker pull noah95/introml
 ## Run
 This command starts the docker container:
 ```bash
-docker run -p 8888:8888 -v `pwd`:"/home/jovyan/iml" introml
+docker run -p 8888:8888 -v `pwd`:"/home/jovyan/iml" noah95/introml
 
 ```
 Jupyter is now available at [localhost:8888](http://localhost:8888/)
 
 ## Build
 ```bash
-docker built . -t introml
+docker built . -t noah95/introml
 ```
 
 ## Push
