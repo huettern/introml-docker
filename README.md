@@ -13,7 +13,7 @@ This command starts the docker container:
 docker run -p 8888:8888 -v `pwd`:"/home/jovyan/iml" introml
 
 ```
-Jupyter is now available at [localhost:8888](localhost:8888)
+Jupyter is now available at [localhost:8888](http://localhost:8888/)
 
 ## Build
 ```bash
